@@ -45,14 +45,14 @@ def scrambleSetup():
                 print "Team ",i+1,'is ',lista[i],',',listb[i],',',listc[i],','
                 print "Team Captain is :" ,lista[i]
                 print ""
-                """mailsendto = ['gljfb@yahoo.com','gljfb0958@gmail.com']
+                """mailsendto = ['email@yahoo.com','email@gmail.com']
                 mail = smtplib.SMTP('smtp.gmail.com',587)
                 mail.ehlo()
                 mail.starttls()
-                mail.login('gljfb0958@gmail.com','enter0958')
-                mail.sendmail('gljfb0958@gmail.com',mailsendto[i],"Your team consists of " + lista[i] + "," + listb[i] + "," + listc[i] + '\n'"Your captain is " + lista[i])
+                mail.login('email@gmail.com','password')
+                mail.sendmail('email@gmail.com',mailsendto[i],"Your team consists of " + lista[i] + "," + listb[i] + "," + listc[i] + '\n'"Your captain is " + lista[i])
                 mail.close()
-                textsendto = [4079732804,]"""
+                textsendto = [mobile #,]"""
                 message = "Your Team is " + lista[i] + ',' + listb[i] + ',' + listc[i] 
                 server = smtplib.SMTP('smtp.gmail.com',587)
                 server.starttls()
